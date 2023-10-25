@@ -1,0 +1,57 @@
+.beerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+
+.beerDetailImg {
+  height: 400px;
+  margin-top: 5vh;
+  margin-bottom: -3vh;
+}
+.beerCardDetails {
+  width: 325px;
+  height: min-content;
+}
+.itemName {
+  color: #333;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  max-height: fit-content;
+  margin-bottom: -2vh;
+}
+.itemTagline {
+  color: #ffca41;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  max-height: max-content;
+}
+
+.description {
+  color: #333;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 2vh;
+}
+.littleDetailContainer {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  height: 15px;
+}
+.backButton {
+  height: 40px;
+  width: 40px;
+  padding: 1vh;
+  border-radius: 50px;
+  background-color: #ffca41;
+  margin-right: 270px;
+  margin-top: 2vh;
+}

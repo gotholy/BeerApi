@@ -1,0 +1,40 @@
+main {
+  margin: 8vh 12vw;
+  text-align: left;
+  width: 300px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.allBeerBG {
+  height: 28vh;
+  background-image: url(/allBeer.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.randomBeerBG {
+  height: 28vh;
+
+  background-image: url(/randomBeer.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+h2 {
+  background-color: #ffca41;
+  margin-bottom: 0;
+  padding: 1vh 0 1vh 4vw;
+}
